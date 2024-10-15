@@ -22,8 +22,8 @@ Generate Captions for New Images:
 Model Architecture
 The model consists of two main components:
 
-Image Feature Extractor: Uses the Xception model pre-trained on ImageNet.
-Text Generator: Uses LSTM layers to generate meaningful captions from the extracted features.
+1. Image Feature Extractor: Uses the Xception model pre-trained on ImageNet.
+2. Text Generator: Uses LSTM layers to generate meaningful captions from the extracted features.
 
 Results
 Performance Metric: Achieve an average BLEU score of 30, outperforming standard benchmarks by 25%.
