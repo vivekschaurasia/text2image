@@ -58,13 +58,7 @@ with open(os.path.join(captions_directory, 'captions.txt'), 'r') as f:
     captions_doc = f.read()
 
 
-
-
-'''
-
-IN PROGRESS
-
-'''
+print("In progress")
 
 
 # Use LSTM cells 
